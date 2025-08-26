@@ -1,12 +1,47 @@
-# React + Vite
+# UC-STORE 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-4.3.9-lightgrey?logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.3-blue?logo=tailwind-css&logoColor=white)
+![Frontend](https://img.shields.io/badge/Frontend-React-yellow)
 
-Currently, two official plugins are available:
+UC-STORE is a **frontend store management dashboard** with separate panels for **Admin** and **Employee**.  
+It simplifies store operations, tracks sales, and manages products efficiently — all from a **clean and responsive interface**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📑 Table of Contents
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Installation & Setup](#-installation--setup)
+- [How to Use](#-how-to-use-verification-steps)
+- [Deployment](#-deployment)
+- [Author](#-author)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+### 🔑 Admin Dashboard
+- Manage products and inventory
+- Manage employees (add, update, remove)
+- View sales reports and performance
+- Full control over store operations
+
+### 👨‍💼 Employee Dashboard
+- Handle sales transactions
+- Update inventory in real-time
+- Manage customer interactions
+- View assigned tasks
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite, TailwindCSS  
+- **State Management:** Context API / Redux  
+- **Type:** Frontend-only (no backend connected yet)
+
+---
+
+## 📂 Project Structure
